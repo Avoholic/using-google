@@ -13,14 +13,55 @@
 </head>
 
 <body>
-  <h2 class="content-head is-center">Contact Us!</h2>
-  <aside>
-       <p>
-           We would <em>love</em> to hear from you! </p>
-           <p>Please use the <b><em>Contact Form</em></b>
-           to send us a message.
-       </p>
-   </aside>
+    <script type="text/javascript">
+  		$(document).ready(function(){
+  		   $("#header").load("/html/headerB.html");
+  		   $(".loc01").load("/html/loc01.html");
+  		   $(".loc02").load("/html/loc02_04.html", function(){
+               $(".loc02 li:nth-child(3)").addClass('on');
+           });
+  		});
+    </script>
+    <div id="header" class="sub on"><div class="hd_in clear">
+
+</div>
+<div class="mo_menu">
+
+</div>
+<script type="text/javascript">
+        
+    </script>
+<script>
+  $(function(){
+      $('#header #gnb').hover(function(){
+          $('#header').addClass('on')
+      }, function(){
+          $('#header').removeClass('on')
+      })
+  })	
+
+
+</script>
+</div>
+    <div id="sub" class="inquiry">
+        <div class="sub_visual on">
+            <div class="vis_img">
+                <img src="./files/sub_visual05.jpg" alt="">
+            </div>
+            <div class="vis_txt">
+                <div class="inner2">
+                    <strong>사외결재요청</strong>
+                    <p>Assigning out of Workplace</p>
+                </div>
+            </div>
+            <div class="sub_loc">
+                <div class="wrap">
+                    <div class="inner2">
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
 
 <!-- START HERE -->
    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css">
