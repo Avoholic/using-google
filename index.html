@@ -66,19 +66,32 @@
     <div class="form-elements">
     <fieldset class="pure-group">
                     <ul>
-                                <li>
+                        <li>
          
                                     <strong>기안자</strong>
                                     <input type="text" placeholder="이름을 입력해주세요." name="name" id="name">
-                                                  </li>
+                        </li>
+                        <li>
+                                    <strong>결재요청서류</strong>
+                                    <select name="counselCheck" id="counselCheck">
+                                        <option value="">서류유형을 선택해주세요.</option>
+                                        <option value="제품 문의">정기-통관료 지출결의서</option>
+                                        <option value="설계 및 가공 문의">특송-관부가세 지출결의서</option>
+                                        <option value="채용 문의">영업비 지출결의서</option>
+                                        <option value="기타 문의">기타 서류</option>
+                                    </select>
+                        </li>
+                        
                     </ul>
    </fieldset>
 
 
       <fieldset class="pure-group">
-        <label for="message">Message: </label>
-        <textarea id="message" name="message" rows="10"
-        placeholder="Tell us what's on your mind..."></textarea>
+                        <li>
+                                    <strong>1차 결재자</strong>
+                                    <input type="text" placeholder="이름를 입력해주세요." name="message" id="message">
+                                </li>
+   
       </fieldset>
 
       <fieldset class="pure-group">
