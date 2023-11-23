@@ -323,14 +323,13 @@
 #sub.inquiry .con01 .btn_area .right .more_b {background: #0055B4}
 #sub.inquiry .con01 .btn_area .right .more_b a{color: #fff}
 #sub.inquiry .con01 .btn_area .right .more_b a i{background: #fff}
-
-button {
+#sub.inquiry .con01 .btn_area .right .more_b .button {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
 background: #0055B4}
-button a{color: #fff}
-button a i{background: #fff}
+#sub.inquiry .con01 .btn_area .right .more_b .button a{color: #fff}
+#sub.inquiry .con01 .btn_area .right .more_b .button a i{background: #fff}
 
 	
 }
