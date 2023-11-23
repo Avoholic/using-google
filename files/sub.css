@@ -323,6 +323,16 @@
 #sub.inquiry .con01 .btn_area .right .more_b {background: #0055B4}
 #sub.inquiry .con01 .btn_area .right .more_b a{color: #fff}
 #sub.inquiry .con01 .btn_area .right .more_b a i{background: #fff}
+
+button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+button:disabled {
+  opacity: 0.5;}
+
+
 #sub.product .con .wrap{display: flex;justify-content: space-between;flex-direction: row-reverse; align-items: center;}
 #sub.product .con.left .wrap{justify-content:start;flex-direction: row;}
 #sub.product .con .wrap{padding: 60px 0}
