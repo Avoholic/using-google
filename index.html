@@ -52,8 +52,10 @@
     <!-- change the form action to your script url -->
 <!-- 이름 파트 바꾸는 중 field set은 div 와 보이기에 차이없지만 정보를 문법에 맞게 전달하는 것임-->
       
-    <div class="form-elements">
-    <fieldset class="pure-group">
+        <div class="sub_con">
+            <div class="con01">
+                <div class="inner2">                     
+                    <div class="form_list">
                     <ul>
                         <li>
          
@@ -72,15 +74,34 @@
                         </li>
                         
                     </ul>
-   </fieldset>
-
-
-                        <li>
+                    <ul>
+                       <li>
                                     <strong>1차 결재자</strong>
-                                    <input type="text" placeholder="이름를 입력해주세요." name="message" id="message">
+                                    <input type="text" placeholder="이름를 입력해주세요." name="1차 결재" id="1차 결재">
                                 </li>
-   
+                                <li>
+                                    <strong>2차 결재자</strong>
+                                    <input type="text" placeholder="이름을 입력해주세요."  name="2차 결재" id="2차 결재">
+                                </li>
+                                <li>
+                                    <strong>제목</strong>
+                                    <input type="text" placeholder="제목을 입력해주세요. 예_36주차 상시3 DICHTO" name="title" id="title">
+                                </li>
+                                <li>
+                                    <strong>총 금액</strong>
+                                    <input type="TEXT" placeholder="총 금액을 입력해주세요. 예_345,950" name="amount" id="amount">
+                                </li>
+                                <li>
+                                    <strong>첨부파일</strong>
+                                    <div class="file">
+                                        <span>파일첨부</span>
+                                        <p class="change_txt1">선택된 파일이 없습니다.</p>
+                                         <input type="file" id="counselFile" name="counselFile" onchange="$('.change_txt1').html(this.value.replace(/c:\\fakepath\\/i,''));">
+                                    </div>
+                                </li>
 
+                        
+                    </ul>
       <fieldset class="pure-group">
         <label for="email"><em>Your</em> Email Address:</label>
         <input id="email" name="email" type="email" value=""
