@@ -328,17 +328,38 @@
     appearance: none;
     background-color:#0055B4;
     color: #fff;
-	bold: ;
     border: 2px solid rgba(255,255,255,0);
-    border-radius: 57px;
-    width: 165px; 
-    height: 50px;
+    border-radius: 58px;
+    width: 220px; 
+    height: 58px;
     text-align: left;
 	padding-inline: 30px;
     font-weight: bolder;
 	text-decoration: underline;
+    transition: background .5s, border .5s; 
 	
 } 
+
+.button:hover {
+    appearance: none;
+    background-color:#fff;
+    color: #003774;
+    border: 2px solid rgba(0,55,116,0);
+    border-radius: 58px;
+    width: 220px; 
+    height: 58px;
+    text-align: left;
+	padding-inline: 30px;
+    font-weight: bolder;
+	text-decoration: underline;
+    transition: background .5s, border .5s; 
+	
+} 
+
+
+
+
+
 
 .button .dots{ display: block; width: 20px; height: 9px; position: absolute; right: 50px; transform: translate(0,-50%); top: 50%; }
 .button .dots i{ display: block; position: absolute; border-radius: 50%; width: 9px; height: 9px; background-color: #003774; transition: background .4s;  position: absolute; }
