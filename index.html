@@ -7,6 +7,20 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./files/sub.css">
         <title>사외결재요청</title>
+ 
+    <style>
+    /* 폼 제출 후 보여질 스타일 */
+    .thankyou_message:target {
+      display: block;
+    }
+
+    /* 초기에는 숨김 상태로 */
+    .thankyou_message {
+      display: none;
+      text-align: center;
+    }
+  </style>
+
     
    
 </head>
@@ -116,8 +130,8 @@
      </div>
 
     <!-- Customise the Thankyou Message People See when they submit the form: -->
-    <div class="thankyou_message" style=font-align:CENTER>
-      <h2> 사외결재가 등록되었습니다.</h2> 
+    <div id="thankyou" class="thankyou_message">
+      <h2>사외결재가 등록되었습니다.</h2>
     </div>
 
   </form>
